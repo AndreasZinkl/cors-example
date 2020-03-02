@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Entwicklung\projects\kdb-angular\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4200731686.index
+1016621250.index
+307695627.index
+1373266404.index
+3443099184.index
+3131397144.index

@@ -1,0 +1,18 @@
+<div class="card my-5">
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit()" #linkForm="ngForm">
+      <div class="form-group">
+        <label for="name">URL</label>
+        <input type="text" [(ngModel)]="link.url" 
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Enter a link"
+          required #name="ngModel">
+      </div>
+      <div [hidden]="!name.pristine" class="alert alert-danger">URL is required</div>
+      <button type="submit" [disabled]="!linkForm.form.valid" 
+        class="btn btn-info">Submit</button>
+    </form>
+  </div>
+</div>
